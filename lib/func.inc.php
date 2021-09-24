@@ -40,6 +40,7 @@ function validateExamDate($examDate)
 {
 
     global $errors;
+    //Hallo welt
 
     try {
         if ($examDate == "") {
