@@ -35,7 +35,7 @@
         $grade = isset($_POST['grade']) ? $_POST['grade'] : '';
         $subject = isset($_POST['subject']) ? $_POST['subject'] : '';
 
-        if(validate($name, $email, $examDate, $subject, $grade)){
+        if(validat($name, $email, $examDate, $subject, $grade)){
             echo "<p class='alert alert-success'>Die eingegebenen Daten sind in Ordung!</p>";
         }else{
             echo "<div class='alert alert-danger'><p>Die eingegebenen Daten sind fehlerhaft!</p><ul>";
