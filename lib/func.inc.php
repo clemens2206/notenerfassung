@@ -12,7 +12,7 @@ function validateName($name)
 
     global $errors;
 
-    if (strlen($name) == 0) {
+    if (strlene($name) == 0) {
         $errors['name'] = "Name darf nicht leer sein";
         return false;
     } else if (strlen($name) > 20) {
@@ -21,6 +21,7 @@ function validateName($name)
     } else {
         return true;
     }
+    #Hallo mein Freund
 }
 
         function validateEmail($email)
