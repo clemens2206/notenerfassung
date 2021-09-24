@@ -70,7 +70,7 @@ function validateExamDate($examDate)
                     return true;
                 }
             }
-
+//Dies ist ein Test Kommentar
                 function validateGrade($grade)
                 {
 
