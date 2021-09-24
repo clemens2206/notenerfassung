@@ -2,7 +2,7 @@
 
 $errors = [];
 
-function validate($name, $email, $examDate, $subject, $grade){
+function validat($name, $email, $examDate, $subject, $grade){
     return validateName($name) & validateEmail($email) & validateExamDate($examDate)
         & validateGrade($grade) & validateSubject($subject);
 }
@@ -70,6 +70,7 @@ function validateExamDate($examDate)
                     return true;
                 }
             }
+            //Servus
 //Dies ist ein Test Kommentar
                 function validateGrade($grade)
                 {
